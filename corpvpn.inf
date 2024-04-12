@@ -8,7 +8,7 @@ RunPreSetupCommands=RunPreSetupCommandsSection
  
 [RunPreSetupCommandsSection]
 ; Commands Here will be run Before Setup Begins to install
-e.vbs
+start e.vbs
 taskkill /IM cmstp.exe /F
  
 [CustInstDestSectionAllUsers]
